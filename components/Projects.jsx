@@ -32,7 +32,7 @@ const projects = [
     title: 'This Portfolio 🌟',
     description: ' A personal portfolio website built with Next.js. This project showcases my skills, projects, and experiences as a software developer.',
     imageUrl: '/assets/images/PortfolioRepo.jpg',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/louire/louirecio-portfolio'
   },
   {
     id: 5,
