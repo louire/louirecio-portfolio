@@ -10,6 +10,8 @@ I'm Loui Recio Izaguirre, a software engineer and data analyst with a Bachelor's
 
 This portfolio was created as a modern Next.js application using Bun as the JavaScript runtime. It was migrated from a static HTML/CSS/JS site to take advantage of React's component-based architecture and Next.js's performance benefits.
 
+<img src="/public/assets/images/PortfolioRepo.jpg" alt="Loui Recio Portfolio" width="800">
+
 ### Tech Stack
 
 - **Framework**: Next.js
