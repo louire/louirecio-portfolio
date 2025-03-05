@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1 className="title">Loui Recio Izaguirre</h1>
-        <p className="subtitle">Software Engineer | Data Analyst & a Bachelor's in Computer Systems Engineering</p>
+        <p className="subtitle">Software Engineer with a Bachelor's in Computer Systems Engineering</p>
         <p className="subtitle"></p>
         <p>
           A curious and self-taught software engineer specialized in Python, Rust, and C#. Driven by a fascination
