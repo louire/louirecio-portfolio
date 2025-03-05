@@ -26,9 +26,9 @@ export default function Hero() {
             <i className="far fa-envelope"></i>
           </a>
         </div>
-        <Link href="/assets/CV_LouiRecio_en.pdf" className="btn" style={{ marginTop: '1rem' }} target="_blank">
+        <a href="/assets/Loui_Recio_Izaguirre_Resume.pdf" className="btn" style={{ marginTop: '1rem' }} download>
           Download Resume
-        </Link>
+        </a>
       </div>
       <Image 
         src="/assets/images/ProfilePic.jpg" 
