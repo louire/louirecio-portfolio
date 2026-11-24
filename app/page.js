@@ -7,6 +7,7 @@ import Education from '../components/Education';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
+import DevSiteButton from '../components/DevSiteButton';
 import Particles from '../components/Particles';
 import PageLoader from '../components/PageLoader';
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <DevSiteButton />
       <BackToTop />
     </div>
   );

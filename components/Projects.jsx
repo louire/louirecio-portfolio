@@ -8,38 +8,38 @@ import Link from 'next/link';
 const projects = [
   {
     id: 1,
+    title: 'Systems Over Chaos 📝',
+    description: 'A small blog with a built-in admin panel, written in Rust with Axum, Askama and Postgres. Posts are written in Markdown, sanitized and stored in the database along with uploaded images, no external CMS.',
+    imageUrl: '/assets/images/SystemsOverChaos.png',
+    githubUrl: 'https://github.com/louire/systems-over-chaos'
+  },
+  {
+    id: 2,
     title: 'Ferrum DB ⚙️',
     description: 'A modern terminal-based database client written in Rust. FerrumDB provides an intuitive TUI (Text User Interface) for interacting with your databases.',
     imageUrl: '/assets/images/RepoFerrumDB.jpg',
     githubUrl: 'https://github.com/louire/ferrum_db'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Pomodoro RS 🍅',
     description: 'A friendly Pomodoro timer CLI application built with Rust, featuring cute emojis, encouraging messages, sound alerts, and a powerful yet simple interface.',
     imageUrl: '/assets/images/PomodoroRsRepo.png',
     githubUrl: 'https://github.com/louire/pomodoro_rs'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Rust Discord Bot 🦀',
     description: 'A Discord music bot built with Rust, featuring voice channel integration and YouTube playback. Developed using Serenity framework and Songbird for efficient audio processing.',
     imageUrl: '/assets/images/DiscordPlaysPhoto.jpg',
     githubUrl: 'https://github.com/louire/discord_plays'
   },
   {
-    id: 4,
+    id: 5,
     title: 'This Portfolio 🌟',
     description: ' A personal portfolio website built with Next.js. This project showcases my skills, projects, and experiences as a software developer.',
     imageUrl: '/assets/images/PortfolioRepo.jpg',
     githubUrl: 'https://github.com/louire/louirecio-portfolio'
-  },
-  {
-    id: 5,
-    title: 'UC - Under Construction',
-    description: 'Excepteur sint occaecat cupidatat non proident.',
-    imageUrl: '/assets/project5.jpg',
-    githubUrl: '#'
   },
   {
     id: 6,

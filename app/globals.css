@@ -541,6 +541,41 @@ main, section, nav, footer {
   background-color: var(--accent-dark);
 }
 
+/* Floating dev site button */
+.dev-site-button {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.2rem;
+  background-color: var(--accent-dark);
+  color: var(--text-dark);
+  border: 2px solid var(--primary);
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.dev-site-button .material-icons {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.dev-site-button:hover {
+  transform: translateY(-5px);
+  background-color: var(--primary);
+  color: white;
+}
+
+.dev-site-button:hover .material-icons {
+  color: white;
+}
+
 /* Loader */
 .page-loader {
   position: fixed;
@@ -740,6 +775,16 @@ body.light-mode .education-card:hover {
   .back-to-top {
       bottom: 1rem;
       right: 1rem;
+  }
+
+  .dev-site-button {
+      bottom: 1rem;
+      left: 1rem;
+      padding: 0.75rem;
+  }
+
+  .dev-site-label {
+      display: none;
   }
 
   /* Education Mobile */
